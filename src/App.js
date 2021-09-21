@@ -8,6 +8,7 @@ import Gallery from './Gallery';
 import Search from './Search';
 import Departments from './Departments';
 import About from './About';
+import Tickets from './Tickets';
 function App() {
   const [searchOptions, setSearchOptions] = useState({
     url: 'https://collectionapi.metmuseum.org/public/collection/v1/objects',
@@ -46,6 +47,12 @@ function App() {
         exact
         path='/About'
         render={() => <About/>}
+        
+        />
+        <Route
+        exact
+        path='/Tickets'
+        render={() => <Tickets/>}
         
         />
         <Redirect path='*' to='/>home' />

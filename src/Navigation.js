@@ -13,7 +13,7 @@ const Navigation = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
             <Nav.Link as={Link} to="/themet">
-            Visitor Gide
+            Visitor Guide
             </Nav.Link>
             <Nav.Link as={Link} to="/departments">
             Departments

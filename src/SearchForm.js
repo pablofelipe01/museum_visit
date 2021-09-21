@@ -31,6 +31,7 @@ const VisitingTheMet = ({ handleSubmit, handleChange, searchString }) => {
           </Col>
         </Row>
       </Form>
+      
     );
   };
 
